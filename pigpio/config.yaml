@@ -14,7 +14,7 @@ privileged:
 devices:
   - /dev/mem
   - /dev/vcio
-image: ghcr.io/bencorrado/ha-pigpio-{arch}
+#image: ghcr.io/bencorrado/ha-pigpio-{arch}
 init: false
 ports:
   8888/tcp: 8888
