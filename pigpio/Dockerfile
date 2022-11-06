@@ -28,11 +28,11 @@ COPY --from=BUILD /usr/local/include/pigpio* /usr/local/include/
 COPY --from=BUILD /usr/local/lib/libpigpio* /usr/local/lib/
 COPY --from=BUILD /usr/local/bin/pig* /usr/local/bin/
 COPY --from=BUILD /usr/local/lib/python3.9/dist-packages/* /usr/local/lib/python3.9/dist-packages/
-COPY ./cpuinfo-hack /usr/local/proc/cpuinfo
+COPY ./cpuinfo-hack /usr/local/cpuinfo
 
 # Point to the right libs
 RUN echo "/usr/local/lib" > /etc/ld.so.conf && ldconfig
-RUN mount --bind /usr/local/proc/cpuinfo /proc/cpuinfo
+RUN mount --bind /usr/local/cpuinfo /proc/cpuinfo
 
 ENTRYPOINT [ "/init" ]
 CMD []
