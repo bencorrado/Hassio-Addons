@@ -2,6 +2,7 @@
 set -e
 
 additional_options=$(bashio::config 'additional_options')
+mkdir /proc/
 ln -sf /usr/local/proc/cpuinfo-hack /proc/cpuinfo
 
 bashio::log.info 'Started pigpio'
