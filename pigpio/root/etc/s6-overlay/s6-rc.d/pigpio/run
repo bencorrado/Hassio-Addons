@@ -2,6 +2,7 @@
 set -e
 
 additional_options=$(bashio::config 'additional_options')
+ln -s /proc/cpuinfo /usr/local/proc/cpuinfo-hack
 
 bashio::log.info 'Started pigpio'
 # shellcheck disable=SC2086

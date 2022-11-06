@@ -1,3 +1,7 @@
+## 1.5.3 - 2022-11-06
+
+* Hack to make debian based system  work with /proc/cpuino
+
 ## 1.5.2 - 2022-08-17
 
 * 🔨 Migrated to S6-Overlay `V3`

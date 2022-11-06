@@ -1,4 +1,4 @@
-# Poeschl Home Assistant Supervisor Add-ons
+# bencorrado Home Assistant Supervisor Add-ons
 
 [![Main build][build-badge]][build-url]
 ![GitHub commit activity][commit-badge]
@@ -51,17 +51,17 @@ To install those Add-ons add this repository in the Home Assistant Add-on store.
 
 Use the following URL to add this repository:
 
-`https://github.com/Poeschl/Hassio-Addons`
+`https://github.com/bencorrado/Hassio-Addons`
 
 ### Licence
 
 The licence of the repository is inherited by the plugins, if not stated different.
 
-[build-badge]: https://img.shields.io/github/workflow/status/Poeschl/Hassio-Addons/Deploy%20addons?style=for-the-badge
-[build-url]: https://github.com/Poeschl/Hassio-Addons/actions?query=workflow%3A%22Deploy+addons%22
-[commit-badge]: https://img.shields.io/github/commit-activity/m/Poeschl/Hassio-Addons?style=for-the-badge
-[licence-badge]: https://img.shields.io/github/license/Poeschl/Hassio-Addons?style=for-the-badge
+[build-badge]: https://img.shields.io/github/workflow/status/bencorrado/Hassio-Addons/Deploy%20addons?style=for-the-badge
+[build-url]: https://github.com/bencorrado/Hassio-Addons/actions?query=workflow%3A%22Deploy+addons%22
+[commit-badge]: https://img.shields.io/github/commit-activity/m/bencorrado/Hassio-Addons?style=for-the-badge
+[licence-badge]: https://img.shields.io/github/license/bencorrado/Hassio-Addons?style=for-the-badge
 [donation-badge]: https://img.shields.io/badge/Buy%20me%20a%20coffee-%23d32f2f?logo=buy-me-a-coffee&style=for-the-badge&logoColor=white
-[donation-url]: https://www.buymeacoffee.com/Poeschl
+[donation-url]: https://www.buymeacoffee.com/bencorrado
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FPoeschl%2FHassio-Addons
+[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fbencorrado%2FHassio-Addons
